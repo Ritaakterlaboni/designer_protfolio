@@ -1,0 +1,650 @@
+/*common css start*/
+*{
+    margin:0;
+    padding:0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none !important;
+}
+/*common css end*/
+
+/*navbar part css start*/
+#navbar-part{
+    padding:20px 00px;
+}
+
+.navbar{
+    font-size: 20px;
+    color:white;
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 20px;
+    color:white !important;
+    margin: 0 !important;
+   
+}
+.logo{
+    padding:0 35px;
+}
+.logo-img{
+   padding-top:10px;
+}
+.nav-item{
+    padding:3px 15px;
+    margin:8px;
+    border-radius: 50px;
+   
+}
+.nav-item:hover{
+    background:#FD853A;
+    border-radius: 35px;
+    /*text-transform: uppercase;*/
+    
+    
+}
+.navbar-nav{
+    background: black;
+    border-radius: 50px;
+}
+
+/*navbar part css end*/
+/*myself part css start*/
+#myself_part{
+    padding-top:50px;
+}
+.hello-btn{
+    position:relative;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    display:inline-block;
+    padding:10px 30px;
+    justify-content: center;
+    border-radius: 29px;
+    
+    border: 2px solid black;
+}
+
+.hello-btn span{
+    color:#171717;
+    font-weight: 600;
+}
+.jenny {
+    color: #FD853A;
+    
+  }
+.heading h1{
+    display: inline;
+    font-family: "Urbanist", sans-serif;
+    font-size: 95.57px;
+    font-weight: 600;
+    margin-left: 154px;
+    
+}
+.m{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.icon{
+    font-size: 25px;
+}
+.title span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.girl-img{
+    position:relative;
+    z-index: 111;
+    left:50%;
+    top:40%;
+    transform: translatex(-50%);
+}
+
+.half-circle {
+    position:absolute;
+    z-index: 1;
+    width: 800px;
+    height: 400px;
+    background-color: #f3a371;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
+    top:37%;
+    left:50%;
+    transform: translatex(-50%);
+  }
+  .icons{
+    position:absolute;
+    top:7%;
+    right:0;
+  }
+  .icons i{
+    color:#FD853A;
+    font-size: 25px !important;
+    padding-bottom: 10px;
+  }
+  .years{
+    font-size:47px;
+    font-weight: 700;
+    font-family: "Urbanist", sans-serif;
+  }
+  .Experince {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 95px;
+    right: 10px;
+  }
+  .btn{
+    position:absolute;
+    top:80%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: 2233;
+    background: #e9e5e55d;
+    border-radius: 40px;
+    padding:20px 30px;
+    
+  }
+  .btn {
+    border: 1px solid white;
+    backdrop-filter: blur(5px);        /*background blur hoi ai backdrop filter diya*/
+  }
+  .befor_img{
+    position:relative;
+  }
+
+  .after_img {
+    position: absolute;
+    top: -64px;
+    left: 489px;
+  }
+  .protfolio{
+    padding:10px 20px;
+    
+    background: #FD853A;
+    border-radius: 25px;
+    color:#fff;
+    font-size: 25.69px;
+    font-weight: 500;
+  }
+   .protfolio:hover{
+    color: white !important;
+  }
+  .hire{
+    padding:5px 20px;
+    color:#fff;
+    font-size: 25.69px;
+    font-weight: 500;
+  }
+   .hire:hover{
+    color:white!important;
+  }
+  .hbefore{
+    position:relative;
+  }
+  .hafter {
+    position: absolute;
+    top: -21px;
+    left: -67px;
+  }
+  .next_img{
+    position:relative;
+  }
+  .sub-tittle {
+    position: absolute;
+    top: 39px;
+    left: -61px;
+  }
+  
+/*myself part css end*/
+
+/*services part css start*/
+#services-part{
+    padding-top:100px;
+    padding-bottom: 300px;
+    border-radius: 45px;
+    background: url(../images/Frame58.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.Services {
+    color: #FD853A;
+    font-size: 48px;
+    font-weight: 600;
+    margin-left: -4px;
+  }
+.titles{
+    color:#fff;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.write p{
+    color:white;
+   
+}
+.cardone{
+
+
+  padding: 128px 0px;
+  border:1px solid rgba(248, 246, 246, 0.658);
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.24);
+  
+}
+.cadone {
+  height: 168px;
+  width: 220px;
+  position: absolute;
+  left: 79px;
+  top: 141px;
+  border-radius: 20px;
+  background: rgba(146, 146, 146, 0.527);
+}
+.cadtwo {
+  height: 156px;
+  width: 266px;
+  position: absolute;
+  left: -26px;
+  border-radius: 20px;
+  background: rgba(238, 234, 234, 0.527);
+  top: 15px;
+}
+.cardimg {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  right: 15px;
+}
+.iconss {
+  position: absolute;
+  top: 329px;
+  left: 258px;
+  height: 90px;
+  width: 90px;
+}
+
+.text_card h1 {
+  position: absolute;
+  top: 22px;
+  left: 38px;
+  font-size: 32px;
+  font-weight: 500;
+  color:white;
+  padding-bottom: 5px;
+  
+}
+
+.text_card h1::before{
+  position: absolute;
+  left:-23px;
+  top:65px;
+  content:'';
+  background: rgba(248, 246, 246, 0.658);
+  width: 350px;
+  height: 1px;
+  bottom:0;
+}
+
+
+/*services part css start*/
+
+/*work experience csss start*/
+#work_experience{
+  padding:100px;
+}
+
+.work{
+  font-size:64px;
+  color:#FD853A;
+  margin-left: -5px;
+}
+.my{
+  font-size:64px;
+}
+.palceone{
+  font-weight: 600;
+  font-size:35px;
+}
+.dateone{
+  font-weight: 400;
+  font-size:22px;
+}
+.dotone {
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  background: #FD853A;
+  position: absolute;
+  top: -71px;
+}
+.dottwo {
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  background: black;
+  position: absolute;
+  top: -67px;
+}
+.dotthree {
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+  background: #FD853A;
+  position: absolute;
+  top: -29px;
+}
+.dotthree::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 47px;
+  height: 47px;
+  border-radius: 50px;
+  border: 2px dashed #000;
+}
+.dottwo::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 47px;
+  height: 47px;
+  border-radius: 50px;
+  border: 2px dashed black;
+}
+
+.dottwo::before {
+  content: '';
+  position: absolute;
+  top: 45px;
+  left: 16px;
+  height: 149px;
+  width: 1px;
+  border: 1px dashed black;
+
+}
+.dotone::before {
+  content: '';
+  position: absolute;
+  top: 45px;
+  left: 16px;
+  height: 149px;
+  width: 1px;
+  border: 1px dashed black;
+
+}
+.dotone::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 47px;
+  height: 47px;
+  border-radius: 50px;
+  border: 2px dashed black;
+}
+.work_divison{
+  font-weight: 600;
+  font-size:38px;
+}
+.detailsone{
+  font-weight: 400;
+  font-size:22px;
+}
+
+/*work experience csss start*/
+
+/*why hire css part start*/
+
+#why_hire{
+  padding:100px 0px;
+  background: #F2F4F7;
+}
+
+.hire_1 h3{
+  font-size: 64px;
+  font-weight: 600;
+}
+.hire_1 h3 span{
+  color:#FD853A;
+  font-size: 64px;
+  font-weight: 600;
+}
+.hire_2 p {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px 5px;
+  margin: 30px 3px;
+  color:#98A2B3;
+}
+.numberh h3{
+  font-size: 36px;
+  font-weight: 600;
+  
+  
+}
+.numberp p{
+  font-size: 20px;
+  font-weight: 500;
+  color:#667085;
+  margin-bottom:30px;
+}
+.hirebtn{
+  padding:25px 50px;
+  background: transparent;
+  border-radius: 20px;
+  border:1px solid #000;
+  display:inline-block;
+  
+}
+.hirebtn:hover{
+  background: #FD853A;
+}
+.hirebtn a{
+  font-size: 32px;
+  font-weight: 600;
+  color:black;
+}
+.hirebtn a:hover{
+ color:black;
+ 
+}
+
+/*why hire css part end*/
+
+/*my protfolio css part start*/
+
+#my_protfolio{
+  padding:100px 0px;
+}
+.my_pro_h h3{
+  font-size: 64px;
+  color:#344054;
+  font-weight: 600;
+}
+.my_pro_h span{
+  font-size: 64px;
+  color:#FD853A;
+  font-weight: 600;
+}
+.my_btn a{
+  color:#fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding:20px 40px;
+  background: #FD853A;
+  border-radius: 40px;
+}
+.my_btn{
+  margin-top:28px;
+}
+.my_image{
+  margin-top:50px;
+}
+.btns a{
+  color:#000;
+  margin:0 10px;
+padding:20px 40px;
+border-radius: 30px;
+background: #F2F4F7;
+}
+.lirnate_h h3{
+  font-size:46px;
+  font-weight: 700;
+}
+.lirnate_h h3 img {
+  height: 45px;
+  width: 45px;
+  margin-left:10px;
+}
+.linate_p p {
+  color: #171717;
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 37px;
+  text-align:center;
+}
+/*my protfolio css part end*/
+
+/*testimonial part css start*/
+#testimonial_part{
+  padding:100px 0px;
+  padding-bottom: 200px;
+  background: url(../images/Frame77.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 45px;
+ 
+}
+.icon{
+  position: relative;
+}
+.icon img {
+  position: absolute;
+  top: -8px;
+  left: 470px;
+}
+.test_title h3{
+  font-size:48px;
+  font-weight: 600;
+  padding:0px 94px;
+  color:#fff;
+}
+.test_title span{
+  color:#FD853A;
+}
+.test_title p {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+.vectorone img {
+  position: absolute;
+  top: 94px;
+  left: 642px;
+}
+.vectortwo img {
+  position: absolute;
+  top: 225px;
+  left: -8px;
+}
+
+.test_title {
+  margin-bottom: 100px !important;
+}
+.imgs .imgthree{
+  position: absolute;
+  right:0px;
+}
+.imgtwo{
+  padding-left: 53px;
+ 
+}
+/*testimonial part css end*/
+/*project css part start*/
+#project_part{
+  padding:100px 0px;
+}
+.pro_title h3 {
+  color: #344054;
+  font-size: 64px;
+  font-weight: 600;
+  text-align: center;
+}
+.pro_title span{
+  color:#FD853A;
+}
+.pro_img img{
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.pro_vlog{
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Urbanist", sans-serif;
+}
+.pro_btn a {
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 40px;
+  background: #FD853A;
+  border-radius: 40px;
+}
+
+.pro_boro_img{
+  width:100%;
+}
+/*project css part end*/
+
+
+/*contact css part start*/
+#contact_part{
+  padding:100px 0px;
+  background: #272727;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+}
+.con_text h3{
+  color:#fff;
+  font-size: 63px;
+  font-weight: 600;
+}
+.line{
+  height: 2px;
+  width:104%;
+  margin: 90px 0px;
+  background: #898787a7;
+}
+.contact_img{
+  width:100%;
+}
+.linetwo{
+  height: 2px;
+  width:104%;
+  margin: 90px 0px;
+  background: #898787a7;
+}
+.con_last_one{
+  color:#fff;
+}
+.con_last_two{
+  color:#fff;
+}
+
+/*contact css part end*/
